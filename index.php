@@ -16,8 +16,8 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="images/logoBook.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/logoBook.jpg">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -136,7 +136,7 @@
     <div id="slides-shop" class="cover-slides">
         <ul class="slides-container">
             <li class="text-center">
-                <img src="images/banner_01.jpg" alt="">
+                <img src="images/banner1.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -148,7 +148,7 @@
                 </div>
             </li>
             <li class="text-center">
-                <img src="images/banner_02.jpg" alt="">
+                <img src="images/banner2.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -160,7 +160,7 @@
                 </div>
             </li>
             <li class="text-center">
-                <img src="images/banner_03.jpg" alt="">
+                <img src="images/banner3.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -184,12 +184,12 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="offer-box-products">
-						<img class="img-fluid" src="images/add-img_01.jpg" alt="" />
+						<img class="img-fluid" src="images/add-img1.jpg" alt="" />
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="offer-box-products">
-						<img class="img-fluid" src="images/add-img_02.jpg" alt="" />
+						<img class="img-fluid" src="images/add-img2.jpg" alt="" />
 					</div>
 				</div>
 			</div>
