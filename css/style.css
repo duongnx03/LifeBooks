@@ -32,6 +32,9 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+.img-height{
+    max-width: 100%;
+}
  body {
      color: #666666;
      font-size: 15px;
@@ -809,7 +812,8 @@
      padding: 10px 20px;
 }
 /*------------------------------------------------------------------ Categories Shop -------------------------------------------------------------------*/
- .categories-shop{
+
+.categories-shop{
      padding: 70px 0px;
 }
  .shop-cat-box{
@@ -1110,6 +1114,8 @@
 }
  .title-blog{
      padding: 40px 30px 40px 30px;
+     width: 350px;
+     height: 300px;
 }
  .title-blog h3{
      font-size: 20px;
@@ -1502,7 +1508,7 @@
 }
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
  .all-title-box{
-     background: url("../images/all-bg-title.jpg") no-repeat center center;
+     background: url("../images/img-title.webp") no-repeat center center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -ms-background-size: cover;

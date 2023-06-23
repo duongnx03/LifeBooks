@@ -36,6 +36,72 @@
 </head>
 
 <body>
+     <!-- Start Main Top -->
+     <div class="main-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="custom-select-box">
+                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
+							<option>¥ JPY</option>
+							<option>$ USD</option>
+							<option>€ EUR</option>
+						</select>
+                    </div>
+                    <div class="right-phone-box">
+                        <p>Call US :- <a href="#"> +11 900 800 100</a></p>
+                    </div>
+                    <div class="our-link">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-user s_color"></i> My Account</a></li>
+                            <li><a href="#"><i class="fas fa-location-arrow"></i> Our location</a></li>
+                            <li><a href="#"><i class="fas fa-headset"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="login-box">
+						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
+							<option>Register Here</option>
+							<option>Sign In</option>
+						</select>
+					</div>
+                    <div class="text-slid-box">
+                        <div id="offer-box" class="carouselTicker">
+                            <ul class="offer-box">
+                                <li>
+                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT80
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 50% - 80% off on Book
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 10%! Shop Book
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 10%! Shop Book
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 50% - 80% off on Book
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT30
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Top -->
+    
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
@@ -58,16 +124,16 @@
                         <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
                             <ul class="dropdown-menu">
-								<li><a href="shop.html">Sidebar Shop</a></li>
-								<li><a href="shop-detail.html">Shop Detail</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="my-account.html">My Account</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
+								<li><a href="#">Sidebar Shop</a></li>
+								<li><a href="#">Shop Detail</a></li>
+                                <li><a href="#">Cart</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Wishlist</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -136,7 +202,7 @@
     <div id="slides-shop" class="cover-slides">
         <ul class="slides-container">
             <li class="text-center">
-                <img src="images/banner1.jpg" alt="">
+                <img src="images/banner_01.jpg" alt="" >
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -148,7 +214,7 @@
                 </div>
             </li>
             <li class="text-center">
-                <img src="images/banner2.jpg" alt="">
+                <img src="images/banner_02.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -160,13 +226,13 @@
                 </div>
             </li>
             <li class="text-center">
-                <img src="images/banner3.jpg" alt="">
+                <img src="images/banner_03.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>Welcome To <br> LifeBook Store</strong></h1>
                             <p class="m-b-40">Wings for discovery with books <br> Freedom to sit at home, free to choose, free to think with a diverse collection of books.</p>
-                            <p><a class="btn hvr-hover" href="#">Shop New</a></p>
+                            <p><a class="btn hvr-hover" href="#">Shop   New</a></p>
                         </div>
                     </div>
                 </div>
@@ -184,12 +250,12 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="offer-box-products">
-						<img class="img-fluid" src="images/add-img1.jpg" alt="" />
+						<img class="img-fluid" src="images/add-img_01.jpg" alt="" />
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="offer-box-products">
-						<img class="img-fluid" src="images/add-img2.jpg" alt="" />
+						<img class="img-fluid" src="images/add-img_02.jpg" alt="" />
 					</div>
 				</div>
 			</div>
@@ -226,7 +292,7 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                            <img src="images/img-pro_01.jpg" class="img-height" alt="Image" height="300px" width="250px">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -237,7 +303,7 @@
                             </div>
                         </div>
                         <div class="why-text">
-                            <h4>Lorem ipsum dolor sit amet</h4>
+                            <h4>Human resource management in Gen Z era</h4>
                             <h5> $7.79</h5>
                         </div>
                     </div>
@@ -249,7 +315,7 @@
                             <div class="type-lb">
                                 <p class="new">New</p>
                             </div>
-                            <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                            <img src="images/img-pro_02.jpg" class="img-height" alt="Image" height="300px" width="250px">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -260,7 +326,7 @@
                             </div>
                         </div>
                         <div class="why-text">
-                            <h4>Lorem ipsum dolor sit amet</h4>
+                            <h4>Drinking the wrong eyes, I've been drunk for a lifetime</h4>
                             <h5> $9.79</h5>
                         </div>
                     </div>
@@ -272,7 +338,7 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                            <img src="images/img-pro_03.jpg" class="img-height" alt="Image" height="300px" width="250px">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -283,7 +349,7 @@
                             </div>
                         </div>
                         <div class="why-text">
-                            <h4>Lorem ipsum dolor sit amet</h4>
+                            <h4>How to Win Friends and Influence People</h4>
                             <h5> $10.79</h5>
                         </div>
                     </div>
@@ -295,7 +361,7 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
+                            <img src="images/img-pro_04.jpg" class="img-height" alt="Image" height="300px" width="250px">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -306,7 +372,7 @@
                             </div>
                         </div>
                         <div class="why-text">
-                            <h4>Lorem ipsum dolor sit amet</h4>
+                            <h4>Manipulative art - a dark corner ingrained in every sentence</h4>
                             <h5> $15.79</h5>
                         </div>
                     </div>
@@ -331,7 +397,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-01.jpg" alt="" width="400px" height="400px"/>
+                            <img class="img-height" src="images/blog-01.jpg" alt="" width="350px" height="300px"/>
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
@@ -349,12 +415,12 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-02.jpg" alt="" width="400px" height="400px"/>
+                            <img class="img-height" src="images/blog-02.jpg" alt="" width="350px" height="300px"/>
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
-                                <h3>The Alchemist – Paulo Coelho </h3>
-                                <p>A good book for those who have lost their dream or never got it. If you're looking for books to read for success, The Alchemist is well worth a read. The lyrics are simple, gentle but full of poetry, imbued with Eastern philosophies but a motivation for those who are looking for an ambition in their souls.</p>
+                                <h3>A Fable About Following Your Dream - Paulo Coelho </h3>
+                                <p>A good book for those who have lost their dream or never got it. If you're looking for books to read for success, The Alchemist is well worth a read. Simple, gentle, poetic lyrics, imbued with Eastern philosophy, are the motivation for those who are looking for ambition in their souls.</p>
                             </div>
                             <ul class="option-blog">
                                 <li><a href="#"><i class="far fa-heart"></i></a></li>
@@ -367,7 +433,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-03.webp" alt="" width="400px" height="400px"/>
+                            <img class="img-height" src="images/blog-03.webp" alt="" width="350px" height="300px"/>
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
@@ -393,7 +459,7 @@
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-01.jpg" alt="" />
+                    <img src="images/instagram-img_01.jpg" alt="" width="300px" height="340px"/>
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -401,7 +467,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-02.jpg" alt="" />
+                    <img src="images/instagram-img_02.jpg" alt="" width="300px" height="340px"/>
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -409,7 +475,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-03.jpg" alt="" />
+                    <img src="images/instagram-img_03.jpg" alt="" width="300px" height="340px"/>
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -417,7 +483,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-04.jpg" alt="" />
+                    <img src="images/instagram-img_04.png" alt="" width="300px" height="340px"/>
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -425,7 +491,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <img src="images/instagram-img_05.jpg" alt="" width="300px" height="340px"/>
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -433,7 +499,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-06.jpg" alt="" />
+                    <img src="images/instagram-img_06.jpg" alt="" width="300px" height="340px"/>
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -441,7 +507,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-07.jpg" alt="" />
+                    <img src="images/instagram-img_07.jpg" alt="" width="300px" height="340px"/>
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -449,7 +515,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-08.jpg" alt="" />
+                    <img src="images/instagram-img_08.png" alt="" width="300px" height="340px"/>
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -457,7 +523,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-09.jpg" alt="" />
+                    <img src="images/instagram-img_09.jpg" alt="" width="300px" height="340px"/>
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -465,7 +531,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <img src="images/instagram-img_05.jpg" alt="" width="300px" height="340px"/>
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
