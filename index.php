@@ -36,17 +36,17 @@
 </head>
 
 <body>
-     <!-- Start Main Top -->
-     <div class="main-top">
+    <!-- Start Main Top -->
+    <div class="main-top">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="custom-select-box">
+                    <div class="custom-select-box">
                         <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-							<option>¥ JPY</option>
-							<option>$ USD</option>
-							<option>€ EUR</option>
-						</select>
+                            <option>$ USD</option>
+                            <option>¥ JPY</option>
+                            <option>€ EUR</option>
+                        </select>
                     </div>
                     <div class="right-phone-box">
                         <p>Call US :- <a href="#"> +11 900 800 100</a></p>
@@ -60,12 +60,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="login-box">
-						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
-							<option>Register Here</option>
-							<option>Sign In</option>
-						</select>
-					</div>
+                    <div class="login-box">
+                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
+                            <option><a href="login.php"> Sign In</a></option>
+                            <option>Register</option>
+                        </select>
+                    </div>
                     <div class="text-slid-box">
                         <div id="offer-box" class="carouselTicker">
                             <ul class="offer-box">
@@ -91,7 +91,7 @@
                                     <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT30
                                 </li>
                                 <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now 
+                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
                                 </li>
                             </ul>
                         </div>
@@ -101,7 +101,7 @@
         </div>
     </div>
     <!-- End Main Top -->
-    
+
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
@@ -109,10 +109,12 @@
             <div class="container">
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                </button>
-                    <a class="navbar-brand" href="index.php"><img src="images/logoBook.jpg" class="logo" alt="" width="110px" height="100px"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu"
+                        aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.php"><img src="images/logoBook.jpg" class="logo" alt=""
+                            width="110px" height="100px"></a>
                 </div>
                 <!-- End Header Navigation -->
 
@@ -124,8 +126,8 @@
                         <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
                             <ul class="dropdown-menu">
-								<li><a href="#">Sidebar Shop</a></li>
-								<li><a href="#">Shop Detail</a></li>
+                                <li><a href="#">Sidebar Shop</a></li>
+                                <li><a href="#">Shop Detail</a></li>
                                 <li><a href="#">Cart</a></li>
                                 <li><a href="#">Checkout</a></li>
                                 <li><a href="#">My Account</a></li>
@@ -143,12 +145,12 @@
                     <ul>
                         <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
                         <li class="side-menu">
-							<a href="#">
-								<i class="fa fa-shopping-bag"></i>
-								<span class="badge">3</span>
-								<p>My Cart</p>
-							</a>
-						</li>
+                            <a href="#">
+                                <i class="fa fa-shopping-bag"></i>
+                                <span class="badge">3</span>
+                                <p>My Cart</p>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- End Atribute Navigation -->
@@ -202,12 +204,13 @@
     <div id="slides-shop" class="cover-slides">
         <ul class="slides-container">
             <li class="text-center">
-                <img src="images/banner_01.jpg" alt="" >
+                <img src="images/banner_01.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>Welcome To <br> LifeBook Store</strong></h1>
-                            <p class="m-b-40">Satisfy your passion for reading <br> Shop with ease, deliver quickly and get specials instantly.</p>
+                            <p class="m-b-40">Satisfy your passion for reading <br> Shop with ease, deliver quickly and
+                                get specials instantly.</p>
                             <p><a class="btn hvr-hover" href="#">Shop New</a></p>
                         </div>
                     </div>
@@ -219,7 +222,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>Welcome To <br> LifeBook Store</strong></h1>
-                            <p class="m-b-40">Expand your knowledge and open your mind <br> Buy books today and inspire your life.</p>
+                            <p class="m-b-40">Expand your knowledge and open your mind <br> Buy books today and inspire
+                                your life.</p>
                             <p><a class="btn hvr-hover" href="#">Shop New</a></p>
                         </div>
                     </div>
@@ -231,8 +235,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>Welcome To <br> LifeBook Store</strong></h1>
-                            <p class="m-b-40">Wings for discovery with books <br> Freedom to sit at home, free to choose, free to think with a diverse collection of books.</p>
-                            <p><a class="btn hvr-hover" href="#">Shop   New</a></p>
+                            <p class="m-b-40">Wings for discovery with books <br> Freedom to sit at home, free to
+                                choose, free to think with a diverse collection of books.</p>
+                            <p><a class="btn hvr-hover" href="#">Shop New</a></p>
                         </div>
                     </div>
                 </div>
@@ -244,23 +249,23 @@
         </div>
     </div>
     <!-- End Slider -->
-	
-	<div class="box-add-products">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="offer-box-products">
-						<img class="img-fluid" src="images/add-img_01.jpg" alt="" />
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="offer-box-products">
-						<img class="img-fluid" src="images/add-img_02.jpg" alt="" />
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+
+    <div class="box-add-products">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="offer-box-products">
+                        <img class="img-fluid" src="images/add-img_01.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="offer-box-products">
+                        <img class="img-fluid" src="images/add-img_02.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Start Products  -->
     <div class="products-box">
@@ -292,12 +297,16 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/img-pro_01.jpg" class="img-height" alt="Image" height="300px" width="250px">
+                            <img src="images/img-pro_01.jpg" class="img-height" alt="Image" height="300px"
+                                width="250px">
                             <div class="mask-icon">
                                 <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i
+                                                class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i
+                                                class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                            title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                 </ul>
                                 <a class="cart" href="cart.html">Add to Cart</a>
                             </div>
@@ -315,12 +324,16 @@
                             <div class="type-lb">
                                 <p class="new">New</p>
                             </div>
-                            <img src="images/img-pro_02.jpg" class="img-height" alt="Image" height="300px" width="250px">
+                            <img src="images/img-pro_02.jpg" class="img-height" alt="Image" height="300px"
+                                width="250px">
                             <div class="mask-icon">
                                 <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i
+                                                class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i
+                                                class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                            title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                 </ul>
                                 <a class="cart" href="#">Add to Cart</a>
                             </div>
@@ -338,12 +351,16 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/img-pro_03.jpg" class="img-height" alt="Image" height="300px" width="250px">
+                            <img src="images/img-pro_03.jpg" class="img-height" alt="Image" height="300px"
+                                width="250px">
                             <div class="mask-icon">
                                 <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i
+                                                class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i
+                                                class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                            title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                 </ul>
                                 <a class="cart" href="#">Add to Cart</a>
                             </div>
@@ -361,12 +378,16 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/img-pro_04.jpg" class="img-height" alt="Image" height="300px" width="250px">
+                            <img src="images/img-pro_04.jpg" class="img-height" alt="Image" height="300px"
+                                width="250px">
                             <div class="mask-icon">
                                 <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i
+                                                class="fas fa-eye"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i
+                                                class="fas fa-sync-alt"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                            title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                 </ul>
                                 <a class="cart" href="#">Add to Cart</a>
                             </div>
@@ -397,12 +418,15 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-height" src="images/blog-01.jpg" alt="" width="350px" height="300px"/>
+                            <img class="img-height" src="images/blog-01.jpg" alt="" width="350px" height="300px" />
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
                                 <h3>How to Win Friends and Influence People – Dale Carnegie</h3>
-                                <p>This book also highlights the principles in dealing with people very wisely starting from understanding, being honest with yourself as well as suggesting to readers how to care about those around them to let's integrate, develop our own and everyone's abilities to a new level.</p>
+                                <p>This book also highlights the principles in dealing with people very wisely starting
+                                    from understanding, being honest with yourself as well as suggesting to readers how
+                                    to care about those around them to let's integrate, develop our own and everyone's
+                                    abilities to a new level.</p>
                             </div>
                             <ul class="option-blog">
                                 <li><a href="#"><i class="far fa-heart"></i></a></li>
@@ -415,12 +439,15 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-height" src="images/blog-02.jpg" alt="" width="350px" height="300px"/>
+                            <img class="img-height" src="images/blog-02.jpg" alt="" width="350px" height="300px" />
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
                                 <h3>A Fable About Following Your Dream - Paulo Coelho </h3>
-                                <p>A good book for those who have lost their dream or never got it. If you're looking for books to read for success, The Alchemist is well worth a read. Simple, gentle, poetic lyrics, imbued with Eastern philosophy, are the motivation for those who are looking for ambition in their souls.</p>
+                                <p>A good book for those who have lost their dream or never got it. If you're looking
+                                    for books to read for success, The Alchemist is well worth a read. Simple, gentle,
+                                    poetic lyrics, imbued with Eastern philosophy, are the motivation for those who are
+                                    looking for ambition in their souls.</p>
                             </div>
                             <ul class="option-blog">
                                 <li><a href="#"><i class="far fa-heart"></i></a></li>
@@ -433,12 +460,15 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-height" src="images/blog-03.webp" alt="" width="350px" height="300px"/>
+                            <img class="img-height" src="images/blog-03.webp" alt="" width="350px" height="300px" />
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
                                 <h3>Being A Happy Teenager – Andrew Matthews</h3>
-                                <p>Being A Happy Teenager gives readers extremely real situations, even stories that are both "small" and "important" with wise, interesting and funny behavior… There are edges. struggles, failures, and situations where communication is both genuine and rewarding.</p>
+                                <p>Being A Happy Teenager gives readers extremely real situations, even stories that are
+                                    both "small" and "important" with wise, interesting and funny behavior… There are
+                                    edges. struggles, failures, and situations where communication is both genuine and
+                                    rewarding.</p>
                             </div>
                             <ul class="option-blog">
                                 <li><a href="#"><i class="far fa-heart"></i></a></li>
@@ -459,7 +489,7 @@
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img_01.jpg" alt="" width="300px" height="340px"/>
+                    <img src="images/instagram-img_01.jpg" alt="" width="300px" height="340px" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -467,7 +497,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img_02.jpg" alt="" width="300px" height="340px"/>
+                    <img src="images/instagram-img_02.jpg" alt="" width="300px" height="340px" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -475,7 +505,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img_03.jpg" alt="" width="300px" height="340px"/>
+                    <img src="images/instagram-img_03.jpg" alt="" width="300px" height="340px" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -483,7 +513,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img_04.png" alt="" width="300px" height="340px"/>
+                    <img src="images/instagram-img_04.png" alt="" width="300px" height="340px" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -491,7 +521,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img_05.jpg" alt="" width="300px" height="340px"/>
+                    <img src="images/instagram-img_05.jpg" alt="" width="300px" height="340px" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -499,7 +529,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img_06.jpg" alt="" width="300px" height="340px"/>
+                    <img src="images/instagram-img_06.jpg" alt="" width="300px" height="340px" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -507,7 +537,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img_07.jpg" alt="" width="300px" height="340px"/>
+                    <img src="images/instagram-img_07.jpg" alt="" width="300px" height="340px" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -515,7 +545,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img_08.png" alt="" width="300px" height="340px"/>
+                    <img src="images/instagram-img_08.png" alt="" width="300px" height="340px" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -523,7 +553,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img_09.jpg" alt="" width="300px" height="340px"/>
+                    <img src="images/instagram-img_09.jpg" alt="" width="300px" height="340px" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -531,7 +561,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img_05.jpg" alt="" width="300px" height="340px"/>
+                    <img src="images/instagram-img_05.jpg" alt="" width="300px" height="340px" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -546,32 +576,35 @@
     <footer>
         <div class="footer-main">
             <div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-12 col-sm-12">
-						<div class="footer-top-box">
-							<h3>Business Time</h3>
-							<ul class="list-time">
-								<li>Monday - Friday: 08.00am to 05.00pm</li> <li>Saturday: 10.00am to 08.00pm</li> <li>Sunday: <span>Closed</span></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-12 col-sm-12">
-						<div class="footer-top-box">
-							<h3>Newsletter</h3>
-							<form class="newsletter-box">
-								<div class="form-group">
-									<input class="" type="email" name="Email" placeholder="Email Address*" />
-									<i class="fa fa-envelope"></i>
-								</div>
-								<button class="btn hvr-hover" type="submit">Submit</button>
-							</form>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-12 col-sm-12">
-						<div class="footer-top-box">
-							<h3>Social Media</h3>
-							<p>Explore the world of knowledge with us - Buy books from various genres and top authors.</p>
-							<ul>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Business Time</h3>
+                            <ul class="list-time">
+                                <li>Monday - Friday: 08.00am to 05.00pm</li>
+                                <li>Saturday: 10.00am to 08.00pm</li>
+                                <li>Sunday: <span>Closed</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Newsletter</h3>
+                            <form class="newsletter-box">
+                                <div class="form-group">
+                                    <input class="" type="email" name="Email" placeholder="Email Address*" />
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <button class="btn hvr-hover" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Social Media</h3>
+                            <p>Explore the world of knowledge with us - Buy books from various genres and top authors.
+                            </p>
+                            <ul>
                                 <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
@@ -580,16 +613,20 @@
                                 <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
                             </ul>
-						</div>
-					</div>
-				</div>
-				<hr>
+                        </div>
+                    </div>
+                </div>
+                <hr>
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-widget">
                             <h4>About LifeBook Store</h4>
-                            <p>Welcome to the website that sells books! We are proud to be a reputable online book buying platform, giving you a great book shopping experience and providing a rich source of knowledge.</p> 
-							<p>Let us accompany you on your journey of knowledge discovery and inspiration. Buy books from us today and discover countless beautiful and interesting pages. Thank you for accompanying us and hope you have a great experience on our website.</p> 							
+                            <p>Welcome to the website that sells books! We are proud to be a reputable online book
+                                buying platform, giving you a great book shopping experience and providing a rich source
+                                of knowledge.</p>
+                            <p>Let us accompany you on your journey of knowledge discovery and inspiration. Buy books
+                                from us today and discover countless beautiful and interesting pages. Thank you for
+                                accompanying us and hope you have a great experience on our website.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
@@ -608,13 +645,16 @@
                             <h4>Contact Us</h4>
                             <ul>
                                 <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Address: 391a Nam Ky Khoi Nghia Street, <br>Ward 14, District 3, Ho Chi Minh City,<br>  Vietnam </p>
+                                    <p><i class="fas fa-map-marker-alt"></i>Address: 391a Nam Ky Khoi Nghia Street,
+                                        <br>Ward 14, District 3, Ho Chi Minh City,<br> Vietnam </p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705 770</a></p>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705
+                                            770</a></p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">lifeBook@gmail.com</a></p>
+                                    <p><i class="fas fa-envelope"></i>Email: <a
+                                            href="mailto:contactinfo@gmail.com">lifeBook@gmail.com</a></p>
                                 </li>
                             </ul>
                         </div>
