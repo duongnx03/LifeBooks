@@ -654,7 +654,7 @@
                                 </li>
                                 <li>
                                     <p><i class="fas fa-envelope"></i>Email: <a
-                                            href="mailto:contactinfo@gmail.com">lifeBook@gmail.com</a></p>
+                                            href="mailto:contactinfo@gmail.com">lifeBooks@gmail.com</a></p>
                                 </li>
                             </ul>
                         </div>
