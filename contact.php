@@ -133,8 +133,8 @@
                                 <li><a href="#">Wishlist</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item active"><a class="nav-link" href="gallery.php">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
