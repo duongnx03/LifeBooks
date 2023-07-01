@@ -162,6 +162,7 @@
      text-decoration: none;
      transition: opacity 0.2s ease-out;
      font-size: 28px;
+     padding-top: 10px;
 }
 /*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
  .main-top{

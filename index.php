@@ -147,7 +147,7 @@
                         <li class="side-menu">
                             <a href="#">
                                 <i class="fa fa-shopping-bag"></i>
-                                <span class="badge">3</span>
+                                <span class="badge">0</span>
                                 <p>My Cart</p>
                             </a>
                         </li>
