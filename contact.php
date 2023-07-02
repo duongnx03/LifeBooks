@@ -125,11 +125,11 @@
                         <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
                             <ul class="dropdown-menu">
-								<li><a href="#">Sidebar Shop</a></li>
+								<li><a href="#">Product</a></li>
 								<li><a href="#">Shop Detail</a></li>
                                 <li><a href="#">Cart</a></li>
                                 <li><a href="checkout.php">Checkout</a></li>
-                                <li><a href="#">My Account</a></li>
+                                <li><a href="">My Account</a></li>
                                 <li><a href="#">Wishlist</a></li>
                             </ul>
                         </li>
@@ -265,7 +265,7 @@
                                 <p><i class="fas fa-map-marker-alt"></i>Address: 391a Nam Ky Khoi Nghia Street, <br>Ward 14, District 3, Ho Chi Minh City,<br> Vietnam. </p>
                             </li>
                             <li>
-                                <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705 770</a></p>
+                                <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+0123456789</a></p>
                             </li>
                             <li>
                                 <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">LifeBooks@gmail.com</a></p>
@@ -346,7 +346,7 @@
                                     <p><i class="fas fa-map-marker-alt"></i>Address: 391a Nam Ky Khoi Nghia Street, <br>Ward 14, District 3, Ho Chi Minh City,<br>  Vietnam </p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705 770</a></p>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+0123456789</a></p>
                                 </li>
                                 <li>
                                     <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">lifeBook@gmail.com</a></p>

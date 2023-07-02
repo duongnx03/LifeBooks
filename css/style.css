@@ -968,6 +968,9 @@
 	 background: #b0b435;
 	 color: #ffffff;
      font-weight: 600;
+     margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
  .mask-icon{
      width: 100%;

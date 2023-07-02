@@ -49,23 +49,23 @@
                         </select>
                     </div>
                     <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +11 900 800 100</a></p>
+                        <p>Call US : <a href="#"> +0123456789</a></p>
                     </div>
                     <div class="our-link">
                         <ul>
-                            <li><a href="#"><i class="fa fa-user s_color"></i> My Account</a></li>
-                            <li><a href="#"><i class="fas fa-location-arrow"></i> Our location</a></li>
-                            <li><a href="#"><i class="fas fa-headset"></i> Contact Us</a></li>
+                            <li><a href="user.php"><i class="fa fa-user s_color"></i> My Account</a></li>
+                            <li><a href="https://www.google.com/maps/place/391A+%C4%90.+Nam+K%E1%BB%B3+Kh%E1%BB%9Fi+Ngh%C4%A9a,+Ph%C6%B0%E1%BB%9Dng+14,+Qu%E1%BA%ADn+3,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7907758,106.681022,18z/data=!3m1!4b1!4m6!3m5!1s0x317528d4a8afdb7b:0x2e46c4ada94947dd!8m2!3d10.7907758!4d106.6818425!16s%2Fg%2F11h89s2mz2?entry=ttu"><i class="fas fa-location-arrow"></i> Our location</a></li>
+                            <li><a href="contact.php"><i class="fas fa-headset"></i> Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <a href="login.php"><div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="login-box">
-                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
+                    <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
                             <option><a href="login.php"> Sign In</a></option>
                             <option>Register</option>
                         </select>
-                    </div>
+                    </div></a>
                     <div class="text-slid-box">
                         <div id="offer-box" class="carouselTicker">
                             <ul class="offer-box">
@@ -126,12 +126,12 @@
                         <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Sidebar Shop</a></li>
+                                <li><a href="#">Product</a></li>
                                 <li><a href="#">Shop Detail</a></li>
-                                <li><a href="#">Cart</a></li>
+                                <li><a href="cart.php">Cart</a></li>
                                 <li><a href="checkout.php">Checkout</a></li>
-                                <li><a href="#">My Account</a></li>
-                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="user.php">My Account</a></li>
+                                <li><a href="">Wishlist</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
@@ -303,8 +303,6 @@
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i
                                                 class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i
-                                                class="fas fa-sync-alt"></i></a></li>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right"
                                             title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                 </ul>
@@ -313,7 +311,7 @@
                         </div>
                         <div class="why-text">
                             <h4>Human resource management in Gen Z era</h4>
-                            <h5> $7.79</h5>
+                            <h5> $7.79</h5><a href=""><h5>Buy now</h5></a>
                         </div>
                     </div>
                 </div>
@@ -330,8 +328,6 @@
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i
                                                 class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i
-                                                class="fas fa-sync-alt"></i></a></li>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right"
                                             title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                 </ul>
@@ -340,7 +336,7 @@
                         </div>
                         <div class="why-text">
                             <h4>Drinking the wrong eyes, I've been drunk for a lifetime</h4>
-                            <h5> $9.79</h5>
+                            <h5> $9.79</h5><a href=""><h5>Buy now</h5></a>
                         </div>
                     </div>
                 </div>
@@ -357,8 +353,6 @@
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i
                                                 class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i
-                                                class="fas fa-sync-alt"></i></a></li>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right"
                                             title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                 </ul>
@@ -367,7 +361,7 @@
                         </div>
                         <div class="why-text">
                             <h4>How to Win Friends and Influence People</h4>
-                            <h5> $10.79</h5>
+                            <h5> $10.79</h5><a href=""><h5>Buy now</h5></a>
                         </div>
                     </div>
                 </div>
@@ -384,8 +378,6 @@
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i
                                                 class="fas fa-eye"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i
-                                                class="fas fa-sync-alt"></i></a></li>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right"
                                             title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                 </ul>
@@ -394,7 +386,7 @@
                         </div>
                         <div class="why-text">
                             <h4>Manipulative art - a dark corner ingrained in every sentence</h4>
-                            <h5> $15.79</h5>
+                            <h5> $15.79</h5><a href=""><h5>Buy now</h5></a>
                         </div>
                     </div>
                 </div>
@@ -633,10 +625,10 @@
                         <div class="footer-link">
                             <h4>Information</h4>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">My Cart</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="">Shop</a></li>
+                                <li><a href="gallery.php">Gallery</a></li>
+                                <li><a href="cart.php">My Cart</a></li>
                             </ul>
                         </div>
                     </div>
@@ -645,12 +637,11 @@
                             <h4>Contact Us</h4>
                             <ul>
                                 <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Address: 391a Nam Ky Khoi Nghia Street,
+                                    <p><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/391A+%C4%90.+Nam+K%E1%BB%B3+Kh%E1%BB%9Fi+Ngh%C4%A9a,+Ph%C6%B0%E1%BB%9Dng+14,+Qu%E1%BA%ADn+3,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7907758,106.681022,18z/data=!3m1!4b1!4m6!3m5!1s0x317528d4a8afdb7b:0x2e46c4ada94947dd!8m2!3d10.7907758!4d106.6818425!16s%2Fg%2F11h89s2mz2?entry=ttu"> Address: 391a Nam Ky Khoi Nghia Street,
                                         <br>Ward 14, District 3, Ho Chi Minh City,<br> Vietnam </p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705
-                                            770</a></p>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+0123456789</a></p>
                                 </li>
                                 <li>
                                     <p><i class="fas fa-envelope"></i>Email: <a
