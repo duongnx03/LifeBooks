@@ -59,13 +59,13 @@
                         </ul>
                     </div>
                 </div>
-                <a href="login.php"><div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="login-box">
                     <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
-                            <option><a href="login.php"> Sign In</a></option>
+                            <option><a href="login.php"> Sign In</option></a>
                             <option>Register</option>
                         </select>
-                    </div></a>
+                    </div>
                     <div class="text-slid-box">
                         <div id="offer-box" class="carouselTicker">
                             <ul class="offer-box">
